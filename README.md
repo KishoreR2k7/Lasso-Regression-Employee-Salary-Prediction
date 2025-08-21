@@ -43,15 +43,20 @@ The dataset `salary_lasso.csv` contains the following features:
 ## 📊 Results  
 
 ### 🔹 Selected Features by Lasso (non-zero coefficients)  
-experience           2.94
-education_level      0.89
-certifications       0.01
-skills_score         0.99
-projects_handled     0.28
-leadership_score     1.80
-communication_score -0.18
-location_index      2.76
-department_index    0.00 (removed)
+
+
+| Feature              | Coefficient |
+|-----------------------|-------------|
+| experience            | 2.94        |
+| education_level       | 0.89        |
+| certifications        | 0.01        |
+| skills_score          | 0.99        |
+| projects_handled      | 0.28        |
+| leadership_score      | 1.80        |
+| communication_score   | -0.18       |
+| location_index        | 2.76        |
+| department_index      | 0.00 (removed) |
+
 
 ---
 
@@ -60,62 +65,34 @@ department_index    0.00 (removed)
 **With Unnecessary Features (Linear Regression):**
 
 
-experience              2.95
+| Feature              | Coefficient |
+|-----------------------|-------------|
+| experience            | 2.95        |
+| education_level       | 1.14        |
+| certifications        | 0.28        |
+| skills_score          | 1.09        |
+| projects_handled      | 0.28        |
+| leadership_score      | 1.95        |
+| communication_score   | -0.29       |
+| location_index        | 3.26        |
+| department_index      | -0.27       |
 
-
-education_level         1.14
-
-
-certifications          0.28
-
-
-skills_score            1.09
-
-
-projects_handled        0.28
-
-
-leadership_score        1.95
-
-
-communication_score    -0.29
-
-
-location_index          3.26
-
-
-department_index       -0.27
 
 
 **Without Unnecessary Features (Lasso Regression):**
 
 
-experience             2.94
-
-
-education_level        0.89
-
-
-certifications         0.01
-
-
-skills_score           0.99
-
-
-projects_handled       0.28
-
-
-leadership_score       1.80
-
-
-communication_score   -0.18
-
-
-location_index         2.76
-
-
-department_index       0.00
-
+| Feature              | Coefficient |
+|-----------------------|-------------|
+| experience            | 2.94        |
+| education_level       | 0.89        |
+| certifications        | 0.01        |
+| skills_score          | 0.99        |
+| projects_handled      | 0.28        |
+| leadership_score      | 1.80        |
+| communication_score   | -0.18       |
+| location_index        | 2.76        |
+| department_index      | 0.00        |
 
 ---
 
