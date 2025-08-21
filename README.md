@@ -62,34 +62,64 @@ Edit
 ### 🔹 Model Coefficients Comparison  
 
 **With Unnecessary Features (Linear Regression):**
+
+
 experience 2.95
+
+
 education_level 1.14
+
+
 certifications 0.28
+
+
 skills_score 1.09
+
+
 projects_handled 0.28
+
+
 leadership_score 1.95
+
+
 communication_score -0.29
+
+
 location_index 3.26
+
+
 department_index -0.27
 
-java
-Copy
-Edit
 
 **Without Unnecessary Features (Lasso Regression):**
+
+
 experience 2.94
+
+
 education_level 0.89
+
+
 certifications 0.01
+
+
 skills_score 0.99
+
+
 projects_handled 0.28
+
+
 leadership_score 1.80
+
+
 communication_score -0.18
+
+
 location_index 2.76
+
+
 department_index 0.00
 
-yaml
-Copy
-Edit
 
 ---
 
